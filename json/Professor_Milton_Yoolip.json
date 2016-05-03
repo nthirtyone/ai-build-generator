@@ -1,0 +1,35 @@
+{
+	"name": "Professor Milton Yoolip",
+	"classname": "Ellipto",
+	"items": {
+		"1": "ElliptoBeam",
+		"2": "ElliptoBeamSnare",
+		"3": "ElliptoBeamRange",
+		"4": "ElliptoBeamElectrocute",
+		"5": "ElliptoBeamDamage",
+		"6": "ElliptoBeamMonster",
+		"7": "ElliptoBeamLifesteal",
+		
+		"8": "ElliptoMonster",
+		"9": "ElliptoMonsterJump",
+		"10": "ElliptoMonsterRange",
+		"11": "ElliptoMonsterHealthPack",
+		"12": "ElliptoMonsterMore",
+		"13": "ElliptoMonsterStunned",
+		"14": "ElliptoMonsterSlower",
+		
+		"16": "ElliptoHitDamage",
+		"17": "ElliptoHitAmplify",
+		"18": "ElliptoHitMonsterCD",
+		"19": "ElliptoHitDroidHP",
+		"20": "ElliptoHitHeal",
+		"21": "ElliptoHitHealthpack",
+		
+		"23": "addhealth",
+		"24": "regen",
+		"25": "ElliptoSpeed",
+		"26": "coinregen",
+		"27": "piggybank",
+		"28": "AllCooldown"
+	}
+}

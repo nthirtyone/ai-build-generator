@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>AI Build Generator</title>
+	<meta name="description" content="AI Build XML Generator">
+	<meta name="author" content="Aki">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/skeleton.min.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/main.js"></script>
+	<style>
+	.container {
+		margin-top: 48px;
+	}
+	textarea {
+		display: block;
+		width: 100%;
+		resize: vertical;
+		height: 30em;
+	}
+	input {
+		width: 100%;
+	}
+	[disabled] {
+		background-color: #e6e6e6;
+		color: #414141;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>AI Build Generator</h1>
+		<div ng-app="AI-Build-Generator" ng-controller="AI-Build-Controller">
+			<input type="text" ng-model="build">
+			<textarea class="output" disabled>{{output()}}</textarea>
+		</div>
+	</div>
+</body>
+</html>

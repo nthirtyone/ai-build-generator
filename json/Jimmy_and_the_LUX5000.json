@@ -1,0 +1,35 @@
+{
+	"name": "Jimmy and LUX-5000",
+	"classname": "Warrior",
+	"items": {
+		"1": "WarriorCharge",
+		"2": "WarriorChargeShield",
+		"3": "WarriorChargeSpeed",
+		"4": "WarriorChargeCooldown",
+		"5": "WarriorChargeEnd",
+		"6": "WarriorChargeTrail",
+		"7": "WarriorChargeHealth",
+		
+		"8": "WarriorBarrage",
+		"9": "WarriorBarrageDamage",
+		"10": "WarriorBarrageCooldown",
+		"11": "WarriorBarrageShield",
+		"12": "WarriorBarrageSize",
+		"13": "WarriorBarrageSkill",
+		"14": "WarriorBarrageMore",
+		
+		"16": "WarriorSwingDamage",
+		"17": "WarriorSwingSkill",
+		"18": "WarriorSwingLifesteal",
+		"19": "WarriorSwingSize",
+		"20": "WarriorSwingLow",
+		"21": "WarriorSwingQuake",
+		
+		"23": "addhealth",
+		"24": "regen",
+		"25": "WarriorSpeed",
+		"26": "magazine",
+		"27": "piggybank",
+		"28": "AllCooldown"
+	}
+}

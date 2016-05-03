@@ -1,0 +1,32 @@
+{
+	"name": "Chucho Krokk",
+	"classname": "Hyper",
+	"items": {
+		"1": "HyperBolas",
+		"2": "HyperBolasDamage",
+		"3": "HyperBolasSlow",
+		"4": "HyperBolasSize",
+		"5": "HyperBolasRange",
+		"6": "HyperBolasStick",
+		"7": "HyperBolasSplit",
+		"8": "HyperBike",
+		"9": "HyperBikeDamage",
+		"10": "HyperBikeTurretShield",
+		"11": "HyperBikeBoost",
+		"12": "HyperBikeExplode",
+		"13": "HyperBikeSpeed",
+		"14": "HyperBikeKnockback",
+		"16": "HyperShotPierce",
+		"17": "HyperShotDamage",
+		"18": "HyperShotDismount",
+		"19": "HyperShotRange",
+		"20": "HyperShotBolas",
+		"21": "HyperShotCooldown",
+		"23": "addhealth",
+		"24": "regen",
+		"25": "HyperSpeed",
+		"26": "coinregen",
+		"27": "piggybank",
+		"28": "AllCooldown"
+	}
+}

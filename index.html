@@ -13,12 +13,13 @@
 </head>
 <body>
 	<div class="container">
-		<h1>AI Build Generator</h1>
+        <header><h1>AI Build Generator</h1></header>
 		<div ng-app="AI-Build-Generator" ng-controller="AI-Build-Controller">
-			<input type="text" ng-model="build" ng-change="getXML()">
+			<input placeholder="Nautsbuilder build tag" type="text" ng-model="build" ng-change="getXML()">
+            <input type="checkbox" ng-model="order" ng-change="getXML()">
 			<textarea class="output" disabled>{{output}}</textarea>
-            <pre><code>{{filename()}}<br>{{order()}}<br>{{naut()}}</code></pre>
 		</div>
+        <footer><a href="https://github.com/nthirtyone/ai-build-generator/">GitHub</a></footer>
 	</div>
     <script src="js/main.js"></script>
 </body>

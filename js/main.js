@@ -1,5 +1,6 @@
-var start = "<?xml version=\"1.0\" ?>\n\t<enemy>\n\t\t<behaviour><root x=\"80\" y=\"20\"><normal><andblock><string id=\"Comment\">Generated with AI Build Generator</string><normal>";
-var end = "</normal><or><condition id=\"getBoolEquals\"><string id=\"id\">CanBuyItems</string><string id=\"value\" values=\"yesno\">yes</string><string id=\"Comment\">Is allowed to buy items</string></condition><condition id=\"isInNamedArea\"><string id=\"area name\">HealArea</string><string id=\"team\" values=\"ownenemy\">OWN_TEAM</string><string id=\"who\" values=\"targetself\">self</string><string id=\"Comment\">Is in shop</string></condition></or></andblock></normal></root></behaviour></enemy>";
+var start = "<?xml version=\"1.0\" ?>\n<enemy>\n\t<behaviour>\n\t\t<root x=\"80\" y=\"20\">\n\t\t\t<normal>\n\t\t\t\t<andblock>\n\t\t\t\t\t<normal>\n";
+var end = "\t\t\t\t\t</normal>\n\t\t\t\t\t<or>\n\t\t\t\t\t\t<condition id=\"isInNamedArea\">\n\t\t\t\t\t\t\t<string id=\"area name\">HEALAREA</string>\n\t\t\t\t\t\t\t<string id=\"team\" values=\"ownenemy\">OWN_TEAM</string>\n\t\t\t\t\t\t\t<string id=\"who\" values=\"targetself\">self</string>\n\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t<condition id=\"getBoolEquals\">\n\t\t\t\t\t\t\t<string id=\"id\">CanBuyItems</string>\n\t\t\t\t\t\t\t<string id=\"value\" values=\"yesno\">yes</string>\n\t\t\t\t\t\t</condition>\n\t\t\t\t\t</or>\n\t\t\t\t</andblock>\n\t\t\t</normal>\n\t\t</root>\n\t</behaviour>\n</enemy>\n";
+var element = "\t\t\t\t\t\t<condition id=\"isUpgradeEnabled\">\n\t\t\t\t\t\t\t<string id=\"condition\" values=\"yesno\">no</string>\n\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t<normal>\n\t\t\t\t\t\t\t\t<condition id=\"canPayUpgrade\">\n\t\t\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t\t\t<normal>\n\t\t\t\t\t\t\t\t\t\t<action id=\"buyUpgrade\">\n\t\t\t\t\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t\t\t\t</action>\n\t\t\t\t\t\t\t\t\t</normal>\n\t\t\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t\t</normal>\n\t\t\t\t\t\t</condition>";
 
 var app = angular.module('AI-Build-Generator', []);
 app.controller('AI-Build-Controller', function($scope, $http) {
@@ -36,10 +37,11 @@ app.controller('AI-Build-Controller', function($scope, $http) {
         var file = "json/" + name + ".json";
         try {
             $http.get(file).then(function(response) {
-                var foo = "";
+                var foo = start;
                 for (var i = 0; i < $scope.items().length; i++) {
-                    foo += " " + response.data.items[$scope.items()[i]];
+                    foo += element.replace(/\$upgrade/g, response.data.items[$scope.items()[i]]);
                 }
+				foo += end;
                 $scope.output = foo;
             }, function(response){throw "shit";}
             );

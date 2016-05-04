@@ -1,8 +1,15 @@
+@font-face {
+	font-family: "Zekton";
+	src: url(../font/zekton_rg.otf);
+}
 .container {
     margin-top: 48px;
 }
 footer {
     text-align: center;
+}
+h1 {
+	font-family: "Zekton", sans-serif;
 }
 textarea {
     display: block;
@@ -29,4 +36,10 @@ label {
 	font-weight: inherit;
 	float: left;
 	margin: 0 4px 14px 4px;
+}
+.supported {
+	margin: 0 0 14px 0;
+}
+.supported > span:not(:last-child):after {
+	content: ', ';
 }

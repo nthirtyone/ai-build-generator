@@ -32,8 +32,9 @@
 	<div class="container">
 		<h1>AI Build Generator</h1>
 		<div ng-app="AI-Build-Generator" ng-controller="AI-Build-Controller">
-			<input type="text" ng-model="build">
+			<input type="text" ng-model="build" ng-change="getXML()">
 			<textarea class="output" disabled>{{output}}</textarea>
+            <pre><code>{{filename()}}<br>{{order()}}<br>{{naut()}}</code></pre>
 		</div>
 	</div>
     <script src="js/main.js"></script>

@@ -7,7 +7,7 @@ xml["ordered-end"] = "\t\t\t\t\t\t\t</else>\n\t\t\t\t\t\t</condition>\n";
 
 /* 
  * We are generating XMLs here.
- * And we are doing it the most barbaric way, because they are just text after all.
+ * And we are doing it the most barbaric way, because they are just a text after all.
  */
 
 var app = angular.module('AI-Build-Generator', []);
@@ -59,8 +59,18 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 						}
 						a += response.data.items[$scope.items()[i]].label;
 					}
-                    foo += xml["normal"].replace(/\$upgrade/g, a);
+					if ($scope.order) {
+						foo += xml["ordered-start"].replace(/\$upgrade/g, a);
+					}
+					else {
+                    	foo += xml["normal"].replace(/\$upgrade/g, a);
+					}
                 }
+				if ($scope.order) { 
+					for (var i = 0; i < $scope.items().length; i++) {
+						foo += xml["ordered-end"];
+					}
+				}
                 $scope.output = xml["start"] + foo + xml["end"];
             }, function(response){throw "shit";}
             );

@@ -2,7 +2,7 @@
 	"name": "Professor Milton Yoolip",
 	"classname": "Ellipto",
 	"items": {
-		"1": {"classname": "ElliptoBeam"},
+		"1": {"classname": "ElliptoBeam", "notlabeled": true},
 		"2": {"classname": "ElliptoBeamSnare"},
 		"3": {"classname": "ElliptoBeamRange"},
 		"4": {"classname": "ElliptoBeamElectrocute"},
@@ -10,7 +10,7 @@
 		"6": {"classname": "ElliptoBeamMonster"},
 		"7": {"classname": "ElliptoBeamLifesteal"},
 		
-		"8": {"classname": "ElliptoMonster"},
+		"8": {"classname": "ElliptoMonster", "notlabeled": true},
 		"9": {"classname": "ElliptoMonsterJump"},
 		"10": {"classname": "ElliptoMonsterRange"},
 		"11": {"classname": "ElliptoMonsterHealthPack"},

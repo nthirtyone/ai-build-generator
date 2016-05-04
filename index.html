@@ -16,8 +16,12 @@
         <header><h1>AI Build XML Generator</h1></header>
 		<div ng-app="AI-Build-Generator" ng-controller="AI-Build-Controller">
 			<input placeholder="Nautsbuilder build tag" type="text" ng-model="build" ng-change="getXML()">
-            <input type="checkbox" ng-model="order" ng-change="getXML()">
-			<textarea class="output" disabled>{{output}}</textarea>
+            <div class="ordered-box">
+				<input id="order" type="checkbox" ng-model="order" ng-change="getXML()">
+				<label for="order">Force strict build order</label>
+			</div>
+			<textarea id="output" class="output" disabled>{{output}}</textarea>
+			<button ng-click="download()">Open as XML</button>
 		</div>
         <footer><a href="https://github.com/nthirtyone/ai-build-generator.git">GitHub</a></footer>
 	</div>

@@ -79,4 +79,7 @@ app.controller('AI-Build-Controller', function($scope, $http) {
             $scope.output = "Error: " + err;
         }
     };
+	$scope.download = function () {
+		window.open("data:text/xml;charset=UTF-8," + $scope.output);	
+	};
 });

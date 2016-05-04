@@ -16,7 +16,8 @@ var app = angular.module('AI-Build-Generator', []);
 app.controller('AI-Build-Controller', function($scope, $http) {
 	$scope.supported = [{name: "Chucho Krokk", filename: "Chucho_Krokk"}, 
 						{name: "Jimmy and LUX-5000", filename: "Jimmy_and_the_LUX5000"}, 
-						{name: "Professor Milton Yoolip", filename: "Professor_Milton_Yoolip"}
+						{name: "Professor Milton Yoolip", filename: "Professor_Milton_Yoolip"},
+						{name: "Ksenia", filename: "Ksenia"}
 					   ];
 	$scope.build = "";
     $scope.data  = function() {

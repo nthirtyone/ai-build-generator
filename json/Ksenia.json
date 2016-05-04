@@ -2,7 +2,7 @@
 	"name": "Ksenia",
 	"classname": "Crawler",
 	"items": {
-		"1": {"classname": "CrawlerShot"},
+		"1": {"classname": "CrawlerShot", "notlabeled": true},
 		"2": {"classname": "CrawlerShotCooldown"},
 		"3": {"classname": "CrawlerShotCreep"},
 		"4": {"classname": "CrawlerShotRange"},
@@ -10,7 +10,7 @@
 		"6": {"classname": "CrawlerShotMax"},
 		"7": {"classname": "CrawlerShotKnockback"},
 		
-		"8": {"classname": "CrawlerStealth"},
+		"8": {"classname": "CrawlerStealth", "notlabeled": true},
 		"9": {"classname": "CrawlerStealthDuration"},
 		"10": {"classname": "CrawlerStealthSilence"},
 		"11": {"classname": "CrawlerStealthWalk"},

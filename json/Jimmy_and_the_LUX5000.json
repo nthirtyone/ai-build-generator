@@ -2,7 +2,7 @@
 	"name": "Jimmy and LUX-5000",
 	"classname": "Warrior",
 	"items": {
-		"1": {"classname": "WarriorCharge"},
+		"1": {"classname": "WarriorCharge", "notlabeled": true},
 		"2": {"classname": "WarriorChargeShield"},
 		"3": {"classname": "WarriorChargeSpeed"},
 		"4": {"classname": "WarriorChargeCooldown"},
@@ -10,7 +10,7 @@
 		"6": {"classname": "WarriorChargeTrail"},
 		"7": {"classname": "WarriorChargeHealth"},
 		
-		"8": {"classname": "WarriorBarrage"},
+		"8": {"classname": "WarriorBarrage", "notlabeled": true},
 		"9": {"classname": "WarriorBarrageDamage"},
 		"10": {"classname": "WarriorBarrageCooldown"},
 		"11": {"classname": "WarriorBarrageShield"},

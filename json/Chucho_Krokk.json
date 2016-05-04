@@ -2,7 +2,7 @@
 	"name": "Chucho Krokk",
 	"classname": "Hyper",
 	"items": {
-		"1": {"classname": "HyperBolas"},
+		"1": {"classname": "HyperBolas", "notlabeled": true},
 		"2": {"classname": "HyperBolasDamage"},
 		"3": {"classname": "HyperBolasSlow"},
 		"4": {"classname": "HyperBolasSize"},
@@ -10,7 +10,7 @@
 		"6": {"classname": "HyperBolasStick"},
 		"7": {"classname": "HyperBolasSplit"},
 		
-		"8": {"classname": "HyperBike"},
+		"8": {"classname": "HyperBike", "notlabeled": true},
 		"9": {"classname": "HyperBikeDamage"},
 		"10": {"classname": "HyperBikeTurretShield"},
 		"11": {"classname": "HyperBikeBoost"},

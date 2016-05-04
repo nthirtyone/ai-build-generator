@@ -28,7 +28,7 @@
 		"23": {"classname": "AddHealth"},
 		"24": {"classname": "HealthRegen"},
 		"25": {"classname": "ElliptoSpeed", "notlabeled": true},
-		"26": {"classname": "CoinRegen"},
+		"26": {"classname": "PassiveCoinHeal3", "notlabeled": true},
 		"27": {"classname": "PiggyBank", "notlabeled": true},
 		"28": {"classname": "AllCooldown"}
 	}

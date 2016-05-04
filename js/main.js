@@ -5,9 +5,8 @@ var app = angular.module('AI-Build-Generator', []);
 app.controller('AI-Build-Controller', function($scope, $http) {
 	$scope.build = "";
     $scope.data  = function() {
-        return $scope.build.replace(/\[[\/]?build\]/g, "").split("/")
+        return $scope.build.replace(/\[[\/]?build\]/g, "").split("/");
     };
-    console.log($scope.data);
     $scope.order = false;
     $scope.items = function () {
         if ($scope.order) {

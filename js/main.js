@@ -1,13 +1,21 @@
-var start = "<?xml version=\"1.0\" ?>\n\t<enemy>\n\t\t<behaviour><root x=\"80\" y=\"20\"><normal><andblock><string id=\"Comment\">Generated with AI Build Generator</string><normal>";
-var end = "</normal><or><condition id=\"getBoolEquals\"><string id=\"id\">CanBuyItems</string><string id=\"value\" values=\"yesno\">yes</string><string id=\"Comment\">Is allowed to buy items</string></condition><condition id=\"isInNamedArea\"><string id=\"area name\">HealArea</string><string id=\"team\" values=\"ownenemy\">OWN_TEAM</string><string id=\"who\" values=\"targetself\">self</string><string id=\"Comment\">Is in shop</string></condition></or></andblock></normal></root></behaviour></enemy>";
+var xml = {};
+xml["start"] = "<?xml version=\"1.0\" ?>\n<enemy>\n\t<behaviour>\n\t\t<root x=\"80\" y=\"20\">\n\t\t\t<normal>\n\t\t\t\t<andblock>\n\t\t\t\t\t<normal>\n";
+xml["end"] = "\t\t\t\t\t</normal>\n\t\t\t\t\t<or>\n\t\t\t\t\t\t<condition id=\"isInNamedArea\">\n\t\t\t\t\t\t\t<string id=\"area name\">HEALAREA</string>\n\t\t\t\t\t\t\t<string id=\"team\" values=\"ownenemy\">OWN_TEAM</string>\n\t\t\t\t\t\t\t<string id=\"who\" values=\"targetself\">self</string>\n\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t<condition id=\"getBoolEquals\">\n\t\t\t\t\t\t\t<string id=\"id\">CanBuyItems</string>\n\t\t\t\t\t\t\t<string id=\"value\" values=\"yesno\">yes</string>\n\t\t\t\t\t\t</condition>\n\t\t\t\t\t</or>\n\t\t\t\t</andblock>\n\t\t\t</normal>\n\t\t</root>\n\t</behaviour>\n</enemy>\n";
+xml["normal"] = "\t\t\t\t\t\t<condition id=\"isUpgradeEnabled\">\n\t\t\t\t\t\t\t<string id=\"condition\" values=\"yesno\">no</string>\n\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t<normal>\n\t\t\t\t\t\t\t\t<condition id=\"canPayUpgrade\">\n\t\t\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t\t\t<normal>\n\t\t\t\t\t\t\t\t\t\t<action id=\"buyUpgrade\">\n\t\t\t\t\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t\t\t\t</action>\n\t\t\t\t\t\t\t\t\t</normal>\n\t\t\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t\t</normal>\n\t\t\t\t\t\t</condition>\n";
+xml["ordered-start"] = "\t\t\t\t\t\t<condition id=\"isUpgradeEnabled\">\n\t\t\t\t\t\t\t<string id=\"condition\" values=\"yesno\">no</string>\n\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t<normal>\n\t\t\t\t\t\t\t\t<condition id=\"canPayUpgrade\">\n\t\t\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t\t\t<normal>\n\t\t\t\t\t\t\t\t\t\t<action id=\"buyUpgrade\">\n\t\t\t\t\t\t\t\t\t\t\t<string id=\"upgrade name\">$upgrade</string>\n\t\t\t\t\t\t\t\t\t\t</action>\n\t\t\t\t\t\t\t\t\t</normal>\n\t\t\t\t\t\t\t\t</condition>\n\t\t\t\t\t\t\t</normal>\n\t\t\t\t\t\t\t<else>\n";
+xml["ordered-end"] = "\t\t\t\t\t\t\t</else>\n\t\t\t\t\t\t</condition>\n";
+
+/* 
+ * We are generating XMLs here.
+ * And we are doing it the most barbaric way, because they are just text after all.
+ */
 
 var app = angular.module('AI-Build-Generator', []);
 app.controller('AI-Build-Controller', function($scope, $http) {
 	$scope.build = "";
     $scope.data  = function() {
-        return $scope.build.replace(/\[[\/]?build\]/g, "").split("/")
+        return $scope.build.replace(/\[[\/]?build\]/g, "").split("/");
     };
-    console.log($scope.data);
     $scope.order = false;
     $scope.items = function () {
         if ($scope.order) {
@@ -39,9 +47,21 @@ app.controller('AI-Build-Controller', function($scope, $http) {
             $http.get(file).then(function(response) {
                 var foo = "";
                 for (var i = 0; i < $scope.items().length; i++) {
-                    foo += " " + response.data.items[$scope.items()[i]];
+					// $scope.items()[i] - current item number
+					// response.data.items - buyable items array
+					var a = response.data.items[$scope.items()[i]].classname;
+					if (!response.data.items[$scope.items()[i]].notlabeled) {
+						if (!response.data.items[$scope.items()[i]].label) {
+							response.data.items[$scope.items()[i]].label = 1;
+						}
+						else {
+							response.data.items[$scope.items()[i]].label++;
+						}
+						a += response.data.items[$scope.items()[i]].label;
+					}
+                    foo += xml["normal"].replace(/\$upgrade/g, a);
                 }
-                $scope.output = foo;
+                $scope.output = xml["start"] + foo + xml["end"];
             }, function(response){throw "shit";}
             );
         }

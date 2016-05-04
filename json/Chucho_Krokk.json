@@ -9,6 +9,7 @@
 		"5": "HyperBolasRange",
 		"6": "HyperBolasStick",
 		"7": "HyperBolasSplit",
+		
 		"8": "HyperBike",
 		"9": "HyperBikeDamage",
 		"10": "HyperBikeTurretShield",
@@ -16,12 +17,14 @@
 		"12": "HyperBikeExplode",
 		"13": "HyperBikeSpeed",
 		"14": "HyperBikeKnockback",
+		
 		"16": "HyperShotPierce",
 		"17": "HyperShotDamage",
 		"18": "HyperShotDismount",
 		"19": "HyperShotRange",
 		"20": "HyperShotBolas",
 		"21": "HyperShotCooldown",
+		
 		"23": "addhealth",
 		"24": "regen",
 		"25": "HyperSpeed",

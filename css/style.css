@@ -1,0 +1,19 @@
+.container {
+    margin-top: 48px;
+}
+footer {
+    text-align: center;
+}
+textarea {
+    display: block;
+    width: 100%;
+    resize: vertical;
+    height: 30em;
+}
+[type="text"] {
+    width: 100%;
+}
+[disabled] {
+    background-color: #e6e6e6;
+    color: #414141;
+}

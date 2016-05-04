@@ -1,0 +1,35 @@
+{
+	"name": "Ksenia",
+	"classname": "Crawler",
+	"items": {
+		"1": {"classname": "CrawlerShot"},
+		"2": {"classname": "CrawlerShotCooldown"},
+		"3": {"classname": "CrawlerShotCreep"},
+		"4": {"classname": "CrawlerShotRange"},
+		"5": {"classname": "CrawlerShotDamage"},
+		"6": {"classname": "CrawlerShotMax"},
+		"7": {"classname": "CrawlerShotKnockback"},
+		
+		"8": {"classname": "CrawlerStealth"},
+		"9": {"classname": "CrawlerStealthDuration"},
+		"10": {"classname": "CrawlerStealthSilence"},
+		"11": {"classname": "CrawlerStealthWalk"},
+		"12": {"classname": "CrawlerStealthRegen"},
+		"13": {"classname": "CrawlerStealthTrail"},
+		"14": {"classname": "CrawlerStealthRoll"},
+		
+		"16": {"classname": "CrawlerHitDamage"},
+		"17": {"classname": "CrawlerHitAlone"},
+		"18": {"classname": "CrawlerHitKnife"},
+		"19": {"classname": "CrawlerHitLifesteal"},
+		"20": {"classname": "CrawlerHitNextKnife"},
+		"21": {"classname": "CrawlerHitCreep"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "CrawlerSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

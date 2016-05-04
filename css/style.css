@@ -1,13 +1,16 @@
 .container {
     margin-top: 48px;
 }
+footer {
+    text-align: center;
+}
 textarea {
     display: block;
     width: 100%;
     resize: vertical;
     height: 30em;
 }
-input {
+[type="text"] {
     width: 100%;
 }
 [disabled] {

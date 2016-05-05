@@ -1,0 +1,35 @@
+{
+	"name": "Scoop of Justice",
+	"classname": "Paladin",
+	"items": {
+		"1": {"classname": "PaladinHammer", "notlabeled": true},
+		"2": {"classname": "PaladinHammerSnare"},
+		"3": {"classname": "PaladinHammerDamage"},
+		"4": {"classname": "PaladinHammerRange"},
+		"5": {"classname": "PaladinHammerCooldown"},
+		"6": {"classname": "PaladinHammerHeal"},
+		"7": {"classname": "PaladinHammerSpeed"},
+		
+		"8": {"classname": "PaladinAura", "notlabeled": true},
+		"9": {"classname": "PaladinAuraHeal"},
+		"10": {"classname": "PaladinAuraDamage"},
+		"11": {"classname": "PaladinAuraDamageEnd"},
+		"12": {"classname": "PaladinAuraBubble"},
+		"13": {"classname": "PaladinAuraHot"},
+		"14": {"classname": "PaladinAuraCleanse"},
+		
+		"16": {"classname": "PaladinHitAttackspeed"},
+		"17": {"classname": "PaladinHitDamage"},
+		"18": {"classname": "PaladinHitFriendly"},
+		"19": {"classname": "PaladinHitMark"},
+		"20": {"classname": "PaladinHitKill"},
+		"21": {"classname": "PaladinHitHeal"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "PaladinSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

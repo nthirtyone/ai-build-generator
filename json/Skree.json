@@ -1,0 +1,35 @@
+{
+	"name": "Skree",
+	"classname": "Shaman",
+	"items": {
+		"1": {"classname": "ShamanSpirit", "notlabeled": true},
+		"2": {"classname": "ShamanSpiritDamage"},
+		"3": {"classname": "ShamanSpiritLifesteal"},
+		"4": {"classname": "ShamanSpiritHoming"},
+		"5": {"classname": "ShamanSpiritSize"},
+		"6": {"classname": "ShamanSpiritBuff"},
+		"7": {"classname": "ShamanSpiritSlow"},
+		
+		"8": {"classname": "ShamanWall", "notlabeled": true},
+		"9": {"classname": "ShamanWallBuff"},
+		"10": {"classname": "ShamanWallCooldown"},
+		"11": {"classname": "ShamanWallHeight"},
+		"12": {"classname": "ShamanWallHealth"},
+		"13": {"classname": "ShamanWallSlow"},
+		"14": {"classname": "ShamanWallKnockback"},
+		
+		"16": {"classname": "ShamanShootFork"},
+		"17": {"classname": "ShamanShootDamage"},
+		"18": {"classname": "ShamanShootSlow"},
+		"19": {"classname": "ShamanShootReturn"},
+		"20": {"classname": "ShamanShootAttackspeed"},
+		"21": {"classname": "ShamanShootDot"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "ShamanSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "AllDamage", "ignorefirst": true}
+	}
+}

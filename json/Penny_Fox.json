@@ -1,0 +1,35 @@
+{
+	"name": "Penny Fox",
+	"classname": "Assassin",
+	"items": {
+		"1": {"classname": "AssassinAssail", "notlabeled": true},
+		"2": {"classname": "AssassinAssailDmg"},
+		"3": {"classname": "AssassinAssailCharge", "notlabeled": true},
+		"4": {"classname": "AssassinAssailCd", "notlabeled": true},
+		"5": {"classname": "AssassinAssailStun"},
+		"6": {"classname": "AssassinAssailDistance", "notlabeled": true},
+		"7": {"classname": "AssassinAssailKnockback", "notlabeled": true},
+		
+		"8": {"classname": "AssassinJolt", "notlabeled": true},
+		"9": {"classname": "AssassinJoltRange"},
+		"10": {"classname": "AssassinJoltNexthit"},
+		"11": {"classname": "AssassinJoltDmgpercharge"},
+		"12": {"classname": "AssassinJoltSilence"},
+		"13": {"classname": "AssassinJoltDebuff"},
+		"14": {"classname": "AssassinJoltCdreset", "notlabeled": true},
+		
+		"16": {"classname": "AssassinStrikeSpd", "notlabeled": true},
+		"17": {"classname": "AssassinStrikeDmg"},
+		"18": {"classname": "AssassinStrikeMaxchargesranged", "notlabeled": true},
+		"19": {"classname": "AssassinStrikeAttspd"},
+		"20": {"classname": "AssassinStrikeSelfheal", "notlabeled": true},
+		"21": {"classname": "AssassinStrikeIncreasemax", "notlabeled": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "AssassinSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "AllDamage", "ignorefirst": true}
+	}
+}

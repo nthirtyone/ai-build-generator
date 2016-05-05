@@ -1,0 +1,35 @@
+{
+	"name": "Sentry X-58",
+	"classname": "Spy",
+	"items": {
+		"1": {"classname": "SpyAbsorb", "notlabeled": true},
+		"2": {"classname": "SpyAbsorbDamageReduction"},
+		"3": {"classname": "SpyAbsorbDamage"},
+		"4": {"classname": "SpyAbsorbCooldown"},
+		"5": {"classname": "SpyAbsorbDouble"},
+		"6": {"classname": "SpyAbsorbSpeed"},
+		"7": {"classname": "SpyAbsorbFlatDamage"},
+		
+		"8": {"classname": "SpyBooth", "notlabeled": true},
+		"9": {"classname": "SpyBoothDamage"},
+		"10": {"classname": "SpyBoothClone"},
+		"11": {"classname": "SpyBoothStealth"},
+		"12": {"classname": "SpyBoothHeal"},
+		"13": {"classname": "SpyBoothShoot"},
+		"14": {"classname": "SpyBoothSilence"},
+		
+		"16": {"classname": "SpyShootDamage"},
+		"17": {"classname": "SpyShootHeal"},
+		"18": {"classname": "SpyShootLifetime"},
+		"19": {"classname": "SpyShootAttackspeed"},
+		"20": {"classname": "SpyShootArea"},
+		"21": {"classname": "SpyShootDetonate"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "SpySpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "AllDamage", "ignorefirst": true}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"name": "Genji the Pollen Prophet",
+	"classname": "Butterfly",
+	"items": {
+		"1": {"classname": "ButterflyCocoon", "notlabeled": true},
+		"2": {"classname": "ButterflyCocoonSlow"},
+		"3": {"classname": "ButterflyCocoonDroid", "ignorefirst": true},
+		"4": {"classname": "ButterflyCocoonLifesteal"},
+		"5": {"classname": "ButterflyCocoonHalf"},
+		"6": {"classname": "ButterflyCocoonExplode"},
+		"7": {"classname": "ButterflyCocoonHealtotem", "ignorefirst": true},
+		
+		"8": {"classname": "ButterflyBuff", "notlabeled": true},
+		"9": {"classname": "ButterflyBuffAbsorb"},
+		"10": {"classname": "ButterflyBuffSpeed"},
+		"11": {"classname": "ButterflyBuffHeal"},
+		"12": {"classname": "ButterflyBuffShield"},
+		"13": {"classname": "ButterflyBuffCooldown"},
+		"14": {"classname": "ButterflyBuffMax"},
+		
+		"16": {"classname": "ButterflyShootStorm"},
+		"17": {"classname": "ButterflyShootDamage"},
+		"18": {"classname": "ButterflyShootAttackspeed"},
+		"19": {"classname": "ButterflyShootHeal", "ignorefirst": true},
+		"20": {"classname": "ButterflyShootSwarm", "ignorefirst": true},
+		"21": {"classname": "ButterflyShootRange"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "ButterflySpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

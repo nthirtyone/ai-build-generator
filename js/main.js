@@ -17,7 +17,10 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 	$scope.supported = [{name: "Chucho Krokk", filename: "Chucho_Krokk"}, 
 						{name: "Jimmy and LUX-5000", filename: "Jimmy_and_the_LUX5000"}, 
 						{name: "Professor Milton Yoolip", filename: "Professor_Milton_Yoolip"},
-						{name: "Ksenia", filename: "Ksenia"}
+						{name: "Ksenia", filename: "Ksenia"},
+						{name: "Rocco", filename: "Rocco"},
+						{name: "Nibbs", filename: "Nibbs"},
+						{name: "Ted McPain", filename: "Ted_McPain"}
 					   ];
 	$scope.build = "";
     $scope.data  = function() {
@@ -64,14 +67,22 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 					// $scope.items()[i] - current item number
 					// response.data.items - buyable items array
 					var a = response.data.items[$scope.items()[i]].classname;
+					// if labeled (not notlabeled flagged)
 					if (!response.data.items[$scope.items()[i]].notlabeled) {
+						// if first appearance
 						if (!response.data.items[$scope.items()[i]].label) {
+							// set to one
 							response.data.items[$scope.items()[i]].label = 1;
 						}
 						else {
+							// else add 1 to label
 							response.data.items[$scope.items()[i]].label++;
 						}
-						a += response.data.items[$scope.items()[i]].label;
+						//  ignore-first flag not raised OR not first label
+						if (!response.data.items[$scope.items()[i]].ignorefirst || response.data.items[$scope.items()[i]].label > 1) {
+							// finally write label (that number on the end of upgrade classname)
+							a += response.data.items[$scope.items()[i]].label;
+						}
 					}
 					if ($scope.order) {
 						foo += xml["ordered-start"].replace(/\$upgrade/g, a);
@@ -91,7 +102,7 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 				$scope.output = "An error occured when trying to get items data of selected naut.";
 			});
 		}
-		else { $scope.output = "Unsupported naut name"; }
+		else { $scope.output = "Unsupported naut name."; }
     };
 	$scope.download = function () {
 		window.open("data:text/xml;charset=UTF-8," + $scope.output);	

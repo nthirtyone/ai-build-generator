@@ -1,0 +1,35 @@
+{
+	"name": "Nibbs",
+	"classname": "Blinker",
+	"items": {
+		"1": {"classname": "BlinkerBlink", "notlabeled": true},
+		"2": {"classname": "BlinkerBlinkAttackSpeed"},
+		"3": {"classname": "BlinkerBlinkRange"},
+		"4": {"classname": "BlinkerBlinkDamage"},
+		"5": {"classname": "BlinkerBlinkStop"},
+		"6": {"classname": "BlinkerBlinkReset"},
+		"7": {"classname": "BlinkerBlinkSlow"},
+		
+		"8": {"classname": "BlinkerTwirl", "notlabeled": true},
+		"9": {"classname": "BlinkerTwirlDot"},
+		"10": {"classname": "BlinkerTwirlDamage"},
+		"11": {"classname": "BlinkerTwirlShield"},
+		"12": {"classname": "BlinkerTwirlRange"},
+		"13": {"classname": "BlinkerTwirlCooldown"},
+		"14": {"classname": "BlinkerTwirlStacks", "ignorefirst": true},
+		
+		"16": {"classname": "BlinkerHitAttackspeed"},
+		"17": {"classname": "BlinkerHitCooldown"},
+		"18": {"classname": "BlinkerHitDuration"},
+		"19": {"classname": "BlinkerHitDamage"},
+		"20": {"classname": "BlinkerHitRegen"},
+		"21": {"classname": "BlinkerHitStun"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "BlinkerSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "AllDamage", "ignorefirst": true}
+	}
+}

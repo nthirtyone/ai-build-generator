@@ -79,7 +79,7 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 							response.data.items[$scope.items()[i]].label++;
 						}
 						//  ignore-first flag not raised OR not first label
-						if (!response.data.items[$scope.items()[i]].ignorefirst || !response.data.items[$scope.items()[i]].label > 1) {
+						if (!response.data.items[$scope.items()[i]].ignorefirst || response.data.items[$scope.items()[i]].label > 1) {
 							// finally write label (that number on the end of upgrade classname)
 							a += response.data.items[$scope.items()[i]].label;
 						}

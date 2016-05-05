@@ -3,7 +3,7 @@
 	src: url(../font/zekton_rg.otf);
 }
 .container {
-    margin-top: 48px;
+    margin: 48px auto;
 }
 footer {
     text-align: center;

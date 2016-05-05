@@ -1,6 +1,6 @@
 {
-	"name": "Rocco",
-	"classname": "Wozzle",
+	"name": "Nibbs",
+	"classname": "Blinker",
 	"items": {
 		"1": {"classname": "BlinkerBlink", "notlabeled": true},
 		"2": {"classname": "BlinkerBlinkAttackSpeed"},

@@ -1,0 +1,35 @@
+{
+	"name": "Ted McPain",
+	"classname": "Commando",
+	"items": {
+		"1": {"classname": "CommandoAirstrike", "notlabeled": true},
+		"2": {"classname": "CommandoAirstrikeDot"},
+		"3": {"classname": "CommandoAirstrikeDamage"},
+		"4": {"classname": "CommandoAirstrikeStun"},
+		"5": {"classname": "CommandoAirstrikeSplit"},
+		"6": {"classname": "CommandoAirstrikeHealthpack"},
+		"7": {"classname": "CommandoAirstrikePenetrate"},
+		
+		"8": {"classname": "CommandoStimpack", "notlabeled": true},
+		"9": {"classname": "CommandoStimpackDamagereduction"},
+		"10": {"classname": "CommandoStimpackAttackspeed"},
+		"11": {"classname": "CommandoStimpackDuration"},
+		"12": {"classname": "CommandoStimpackReload"},
+		"13": {"classname": "CommandoStimpackMovement"},
+		"14": {"classname": "CommandoStimpackReset"},
+		
+		"16": {"classname": "CommandoShotBullet"},
+		"17": {"classname": "CommandoShotDamage"},
+		"18": {"classname": "CommandoShotReload"},
+		"19": {"classname": "CommandoShotSnipe"},
+		"20": {"classname": "CommandoShotRange"},
+		"21": {"classname": "CommandoShotKnockback"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "CommandoSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "AllDamage", "ignorefirst": true}
+	}
+}

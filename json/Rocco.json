@@ -1,0 +1,35 @@
+{
+	"name": "Rocco",
+	"classname": "Wozzle",
+	"items": {
+		"1": {"classname": "WozzleAimed", "notlabeled": true},
+		"2": {"classname": "WozzleAimedDamage"},
+		"3": {"classname": "WozzleAimedSpeed"},
+		"4": {"classname": "WozzleAimedCharge"},
+		"5": {"classname": "WozzleAimedCooldown"},
+		"6": {"classname": "WozzleAimedSpeedUp"},
+		"7": {"classname": "WozzleAimedSize"},
+		
+		"8": {"classname": "WozzleFrost", "notlabeled": true},
+		"9": {"classname": "WozzleFrostStun"},
+		"10": {"classname": "WozzleFrostDuration"},
+		"11": {"classname": "WozzleFrostSlow"},
+		"12": {"classname": "WozzleFrostDamage"},
+		"13": {"classname": "WozzleFrostRegen"},
+		"14": {"classname": "WozzleFrostSpeed"},
+		
+		"16": {"classname": "WozzleShotDamage"},
+		"17": {"classname": "WozzleShotSpread"},
+		"18": {"classname": "WozzleShotRange"},
+		"19": {"classname": "WozzleShotNoEnemies"},
+		"20": {"classname": "WozzleShotSplit"},
+		"21": {"classname": "WozzleShotCooldown"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "WozzleSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

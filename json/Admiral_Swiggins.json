@@ -1,0 +1,35 @@
+{
+	"name": "Admiral Swiggins",
+	"classname": "Captain",
+	"items": {
+		"1": {"classname": "CaptainHook", "notlabeled": true},
+		"2": {"classname": "CaptainHookCooldown"},
+		"3": {"classname": "CaptainHookDamage"},
+		"4": {"classname": "CaptainHookRange"},
+		"5": {"classname": "CaptainHookDoublegold", "ignorefirst": true},
+		"6": {"classname": "CaptainHookStun"},
+		"7": {"classname": "CaptainHookBomb", "ignorefirst": true},
+		
+		"8": {"classname": "CaptainDrop", "notlabeled": true},
+		"9": {"classname": "CaptainDropSpeed"},
+		"10": {"classname": "CaptainDropHold"},
+		"11": {"classname": "CaptainDropAnkerHealth"},
+		"12": {"classname": "CaptainDropExplode"},
+		"13": {"classname": "CaptainDropDamage"},
+		"14": {"classname": "CaptainDropHealth"},
+		
+		"16": {"classname": "CaptainHitAttackspeed"},
+		"17": {"classname": "CaptainHitDamage"},
+		"18": {"classname": "CaptainHitMaxhp"},
+		"19": {"classname": "CaptainHitBlind", "ignorefirst": true},
+		"20": {"classname": "CaptainHitShield"},
+		"21": {"classname": "CaptainHitDouble", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "CaptainSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

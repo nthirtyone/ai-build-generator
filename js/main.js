@@ -29,7 +29,7 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 					   ];
 	$scope.build = "";
     $scope.data  = function() {
-        return $scope.build.replace(/\[[\/]?build\]/g, "").split("/");
+        return $scope.build.replace(/\[[\/]?build\]/g, "").replace(/https?:\/\/nautsbuilder.com\/#/g, "").split("/");
     };
     $scope.order = false;
     $scope.items = function () {

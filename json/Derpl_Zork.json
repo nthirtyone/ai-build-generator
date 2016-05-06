@@ -1,0 +1,35 @@
+{
+	"name": "Derpl Zork",
+	"classname": "Heavy",
+	"items": {
+		"1": {"classname": "HeavyTrap", "notlabeled": true},
+		"2": {"classname": "HeavyTrapSlow"},
+		"3": {"classname": "HeavyTrapLongevity"},
+		"4": {"classname": "HeavyTrapNukeDamage"},
+		"5": {"classname": "HeavyTrapNukeSize", "ignorefirst": true},
+		"6": {"classname": "HeavyTrapSilence", "ignorefirst": true},
+		"7": {"classname": "HeavyTrapSlow4", "notlabeled": true},
+		
+		"8": {"classname": "HeavyTurret", "notlabeled": true},
+		"9": {"classname": "HeavyTurretSlow"},
+		"10": {"classname": "HeavyTurretShield"},
+		"11": {"classname": "HeavyTurretRocket", "ignorefirst": true},
+		"12": {"classname": "HeavyTurretDamage"},
+		"13": {"classname": "HeavyTurretTransformKnockback", "ignorefirst": true},
+		"14": {"classname": "HeavyTurretShield4", "notlabeled": true},
+		
+		"16": {"classname": "HeavyShotRange"},
+		"17": {"classname": "HeavyShotDamage"},
+		"18": {"classname": "HeavyShotAttackspeed"},
+		"19": {"classname": "HeavyShotSplit", "ignorefirst": true},
+		"20": {"classname": "HeavyShotGoUp", "ignorefirst": true},
+		"21": {"classname": "HeavyShotDamage4", "notlabeled": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "HeavySpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

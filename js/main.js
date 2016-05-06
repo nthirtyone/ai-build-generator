@@ -25,7 +25,8 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 						{name: "Genji the Pollen Prophet", filename: "Genji_the_Pollen_Prophet"},
 						{name: "Scoop of Justice", filename: "Scoop_of_Justice"},
 						{name: "Skree", filename: "Skree"},
-						{name: "Sentry X-58", filename: "Sentry_X-58"}
+						{name: "Sentry X-58", filename: "Sentry_X-58"},
+						{name: "Admiral Swiggins", filename: "Admiral_Swiggins"}
 					   ];
 	$scope.build = "";
     $scope.data  = function() {

@@ -27,7 +27,8 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 						{name: "Skree", filename: "Skree"},
 						{name: "Sentry X-58", filename: "Sentry_X-58"},
 						{name: "Admiral Swiggins", filename: "Admiral_Swiggins"},
-						{name: "Derpl Zork", filename: "Derpl_Zork"}
+						{name: "Derpl Zork", filename: "Derpl_Zork"},
+						{name: "Yuri", filename: "Yuri"}
 					   ];
 	$scope.build = "";
     $scope.data  = function() {
@@ -78,8 +79,15 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 					if (!response.data.items[$scope.items()[i]].notlabeled) {
 						// if first appearance
 						if (!response.data.items[$scope.items()[i]].label) {
-							// set to one
-							response.data.items[$scope.items()[i]].label = 1;
+							// check if has fixed first
+							if (!response.data.items[$scope.items()[i]].first) {
+								// set to one if not
+								response.data.items[$scope.items()[i]].label = 1;
+							}
+							else {
+								// set to fixed if yes
+								response.data.items[$scope.items()[i]].label = response.data.items[$scope.items()[i]].first;
+							}
 						}
 						else {
 							// else add 1 to label

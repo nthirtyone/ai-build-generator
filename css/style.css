@@ -10,6 +10,10 @@ footer {
 }
 h1 {
 	font-family: "Zekton", sans-serif;
+	padding: 0 0 0 12px;
+	background-image: url(../media/gear.png);
+	background-repeat: no-repeat;
+	background-position: 0px 9px;
 }
 textarea {
     display: block;

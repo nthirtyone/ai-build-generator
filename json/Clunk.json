@@ -1,0 +1,35 @@
+{
+	"name": "Clunk",
+	"classname": "Tank",
+	"items": {
+		"1": {"classname": "LifeSteal", "notlabeled": true},
+		"2": {"classname": "TankBiteDamage", "first": 2},
+		"3": {"classname": "TankBiteMaxHP"},
+		"4": {"classname": "TankBiteTargets"},
+		"5": {"classname": "TankBiteSnare", "ignorefirst": true},
+		"6": {"classname": "TankBiteDamage1", "notlabeled": true},
+		"7": {"classname": "TankBiteHeal"},
+		
+		"8": {"classname": "Suicide", "notlabeled": true},
+		"9": {"classname": "TankExplodeDamage"},
+		"10": {"classname": "TankExplodeHardhat"},
+		"11": {"classname": "TankExplodeSlow"},
+		"12": {"classname": "TankExplodeRevive"},
+		"13": {"classname": "TankExplodeCooldown", "notlabeled": true},
+		"14": {"classname": "TankExplodeChargespeed", "notlabeled": true},
+		
+		"16": {"classname": "TankShotAOE", "ignorefirst": true },
+		"17": {"classname": "TankShotSpeed", "ignorefirst": true},
+		"18": {"classname": "TankShotBarrage", "first": 2},
+		"19": {"classname": "TankShotFatPete", "ignorefirst": true},
+		"20": {"classname": "TankShotHoming", "ignorefirst": true},
+		"21": {"classname": "TankShotSalvo", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "TankSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

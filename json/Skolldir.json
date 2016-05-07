@@ -1,0 +1,35 @@
+{
+	"name": "Skølldir",
+	"classname": "Brute",
+	"items": {
+		"1": {"classname": "BruteThrow", "notlabeled": true},
+		"2": {"classname": "BruteThrowDamage"},
+		"3": {"classname": "BruteThrowSlow", "ignorefirst": true},
+		"4": {"classname": "BruteThrowDistance", "ignorefirst": true},
+		"5": {"classname": "BruteThrowFaster"},
+		"6": {"classname": "BruteThrowGnome", "ignorefirst": true},
+		"7": {"classname": "BruteThrowSpeedup", "ignorefirst": true},
+		
+		"8": {"classname": "BruteStamp", "notlabeled": true},
+		"9": {"classname": "BruteStampSnare", "ignorefirst": true},
+		"10": {"classname": "BruteStampRange", "ignorefirst": true},
+		"11": {"classname": "BruteStampBackwards", "ignorefirst": true},
+		"12": {"classname": "BruteStampDamage"},
+		"13": {"classname": "BruteStampReset", "ignorefirst": true},
+		"14": {"classname": "BruteStampHeight", "ignorefirst": true},
+		
+		"16": {"classname": "BruteHitEnddamage", "ignorefirst": true},
+		"17": {"classname": "BruteHitFurther", "ignorefirst": true},
+		"18": {"classname": "BruteHitDamage"},
+		"19": {"classname": "BruteHitEndStun", "ignorefirst": true},
+		"20": {"classname": "BruteHitDeflect", "ignorefirst": true},
+		"21": {"classname": "BruteHitDamage4", "notlabeled": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "BruteSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

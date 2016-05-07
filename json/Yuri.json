@@ -1,0 +1,35 @@
+{
+	"name": "Yuri",
+	"classname": "Jetter",
+	"items": {
+		"1": {"classname": "Mine", "notlabeled": true},
+		"2": {"classname": "JetterMineDamage"},
+		"3": {"classname": "JetterMineLongevity", "ignorefirst": true},
+		"4": {"classname": "JetterMineBounce", "ignorefirst": true},
+		"5": {"classname": "JetterMineCooldown"},
+		"6": {"classname": "JetterMineCarpet", "ignorefirst": true},
+		"7": {"classname": "JetterMineDamage", "first": 4},
+		
+		"8": {"classname": "TimeBubble", "notlabeled": true},
+		"9": {"classname": "JetterTimebubbleSlow", "ignorefirst": true},
+		"10": {"classname": "JetterTimebubbleHeal"},
+		"11": {"classname": "JetterTimebubbleLifesteal", "ignorefirst": true},
+		"12": {"classname": "JetterTimebubbleSpeedup", "ignorefirst": true},
+		"13": {"classname": "JetterTimebubbleHeal4", "ignorefirst": true},
+		"14": {"classname": "JetterTimebubbleSize", "ignorefirst": true},
+		
+		"16": {"classname": "JetterShotRange", "ignorefirst": true},
+		"17": {"classname": "JetterShotAttackspeed", "ignorefirst": true},
+		"18": {"classname": "JetterShotMoreStages"},
+		"19": {"classname": "JetterShotBaseDamage", "ignorefirst": true},
+		"20": {"classname": "JetterShotMoreStages3", "ignorefirst": true},
+		"21": {"classname": "JetterShotSlow", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "JetterSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

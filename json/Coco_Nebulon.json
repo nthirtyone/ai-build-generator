@@ -1,0 +1,35 @@
+{
+	"name": "Coco Nebulon",
+	"classname": "Blazer",
+	"items": {
+		"1": {"classname": "Detonator", "notlabeled": true},
+		"2": {"classname": "BlazeBallDamage"},
+		"3": {"classname": "BlazeBallCooldown"},
+		"4": {"classname": "BlazeBallKnockback"},
+		"5": {"classname": "BlazeBallDistance"},
+		"6": {"classname": "BlazeBallBlind", "ignorefirst": true},
+		"7": {"classname": "BlazeBallBlaze", "ignorefirst": true},
+		
+		"8": {"classname": "Blaze", "notlabeled": true},
+		"9": {"classname": "BlazerBlazeSpeed"},
+		"10": {"classname": "BlazerBlazeDamage"},
+		"11": {"classname": "BlazerBlazeSlow"},
+		"12": {"classname": "BlazerBlazeDuration"},
+		"13": {"classname": "BlazerBlazeSlow4", "notlabeled": true},
+		"14": {"classname": "BlazerBlazeLength"},
+		
+		"16": {"classname": "BlazerShotDamage"},
+		"17": {"classname": "BlazerShotCooldown"},
+		"18": {"classname": "BlazerShotSlow"},
+		"19": {"classname": "BlazerShotAgainstTurrets"},
+		"20": {"classname": "BlazerShotLifesteal", "ignorefirst": true},
+		"21": {"classname": "BlazerShotHoming", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "BlazerSpeed1", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

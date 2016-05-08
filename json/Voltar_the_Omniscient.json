@@ -21,7 +21,7 @@
 		"16": {"classname": "SummonerShotHealpower"},
 		"17": {"classname": "SummonerShotKnockback", "ignorefirst": true},
 		"18": {"classname": "SummonerShotRange"},
-		"19": {"classname": "SummonerShotSolar", "ignorefirst": true},
+		"19": {"classname": "SummonerShotSolar"},
 		"20": {"classname": "SummonerShotHot"},
 		"21": {"classname": "SummonerShotHealpower", "first": 4},
 		

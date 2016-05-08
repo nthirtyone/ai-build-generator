@@ -1,0 +1,35 @@
+{
+	"name": "Vinnie & Spike",
+	"classname": "Bird",
+	"items": {
+		"1": {"classname": "BirdDive", "notlabeled": true},
+		"2": {"classname": "BirdDiveRange"},
+		"3": {"classname": "BirdDiveWarning", "ignorefirst": true},
+		"4": {"classname": "BirdDiveLifesteal", "ignorefirst": true},
+		"5": {"classname": "BirdDiveGold", "ignorefirst": true},
+		"6": {"classname": "BirdDiveDamage", "ignorefirst": true},
+		"7": {"classname": "BirdDiveCooldown", "ignorefirst": true},
+		
+		"8": {"classname": "BirdSmoke", "notlabeled": true},
+		"9": {"classname": "BirdSmokeSilence", "ignorefirst": true},
+		"10": {"classname": "BirdSmokeImmune"},
+		"11": {"classname": "BirdSmokeStealth"},
+		"12": {"classname": "BirdSmokeSpeed"},
+		"13": {"classname": "BirdSmokeSize"},
+		"14": {"classname": "BirdSmokeSteal", "ignorefirst": true},
+		
+		"16": {"classname": "BirdShootRange"},
+		"17": {"classname": "BirdShootAttackspeed"},
+		"18": {"classname": "BirdShootFirstshot", "ignorefirst": true},
+		"19": {"classname": "BirdShootDamage"},
+		"20": {"classname": "BirdShootDamageGold", "ignorefirst": true},
+		"21": {"classname": "BirdShootHero", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "BirdSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveCoinHeal3", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

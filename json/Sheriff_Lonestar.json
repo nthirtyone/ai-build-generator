@@ -1,0 +1,35 @@
+{
+	"name": "Sheriff Lonestar",
+	"classname": "Cowboy",
+	"items": {
+		"1": {"classname": "Grenade", "notlabeled": true},
+		"2": {"classname": "CowboyGrenadeMore", "ignorefirst": true},
+		"3": {"classname": "CowboyGrenadeExplosion"},
+		"4": {"classname": "CowboyGrenadeBounce", "ignorefirst": true},
+		"5": {"classname": "CowboyGrenadeBlind", "ignorefirst": true},
+		"6": {"classname": "CowboyGrenadeLifesteal", "ignorefirst": true},
+		"7": {"classname": "CowboyGrenadeDot"},
+		
+		"8": {"classname": "Bull", "notlabeled": true},
+		"9": {"classname": "CowboyBullBigger", "ignorefirst": true},
+		"10": {"classname": "CowboyBullCooldown", "ignorefirst": true},
+		"11": {"classname": "CowboyBullSlow", "ignorefirst": true},
+		"12": {"classname": "CowboyBullExplode", "ignorefirst": true},
+		"13": {"classname": "CowboyBullDamage", "ignorefirst": true},
+		"14": {"classname": "CowboyBullSlow4", "notlabeled": true},
+		
+		"16": {"classname": "CowboyShotDamage", "ignorefirst": true},
+		"17": {"classname": "CowboyShotAttackspeed", "ignorefirst": true},
+		"18": {"classname": "CowboyShotHoming", "notlabeled": true},
+		"19": {"classname": "CowboyShotDamage3", "notlabeled": true},
+		"20": {"classname": "CowboyShotAOE", "ignorefirst": true},
+		"21": {"classname": "CowboyShotHoming2", "notlabeled": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "CowboySpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

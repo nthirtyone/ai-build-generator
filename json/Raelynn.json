@@ -1,0 +1,35 @@
+{
+	"name": "Raelynn",
+	"classname": "Hunter",
+	"items": {
+		"1": {"classname": "HunterWall", "notlabeled": true},
+		"2": {"classname": "HunterWallHeight"},
+		"3": {"classname": "HunterWallDamage"},
+		"4": {"classname": "HunterWallSlow"},
+		"5": {"classname": "HunterWallDroid", "ignorefirst": true},
+		"6": {"classname": "HunterWallNextShot", "ignorefirst": true},
+		"7": {"classname": "HunterWallDuration", "ignorefirst": true},
+		
+		"8": {"classname": "HunterSnipe", "notlabeled": true},
+		"9": {"classname": "HunterSnipeDamage"},
+		"10": {"classname": "HunterSnipeFaster"},
+		"11": {"classname": "HunterSnipeBlind", "ignorefirst": true},
+		"12": {"classname": "HunterSnipeCash", "ignorefirst": true},
+		"13": {"classname": "HunterSnipeDebuffimmune", "ignorefirst": true},
+		"14": {"classname": "HunterSnipeRange"},
+		
+		"16": {"classname": "HunterShotDamage"},
+		"17": {"classname": "HunterShotPenetrating", "ignorefirst": true},
+		"18": {"classname": "HunterShotBounty", "ignorefirst": true},
+		"19": {"classname": "HunterShotHero", "ignorefirst": true},
+		"20": {"classname": "HunterShotFaster"},
+		"21": {"classname": "HunterShotDamage4", "notlabeled": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "HunterSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

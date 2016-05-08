@@ -1,0 +1,35 @@
+{
+	"name": "Ayla",
+	"classname": "Vampire",
+	"items": {
+		"1": {"classname": "VampireBolas", "notlabeled": true},
+		"2": {"classname": "VampireBolasCooldown"},
+		"3": {"classname": "VampireBolasDamage"},
+		"4": {"classname": "VampireBolasHp"},
+		"5": {"classname": "VampireBolasSlow"},
+		"6": {"classname": "VampireBolasDot"},
+		"7": {"classname": "VampireBolasRange", "ignorefirst": true},
+		
+		"8": {"classname": "VampireBloodThirst", "notlabeled": true},
+		"9": {"classname": "VampireBloodThirstDamage"},
+		"10": {"classname": "VampireBloodThirstShield"},
+		"11": {"classname": "VampireBloodThirstSize", "ignorefirst": true},
+		"12": {"classname": "VampireBloodThirstSpeed", "ignorefirst": true},
+		"13": {"classname": "VampireBloodThirstTrail"},
+		"14": {"classname": "VampireBloodThirstAttackspeed", "ignorefirst": true},
+		
+		"16": {"classname": "VampireBiteAttackspeed"},
+		"17": {"classname": "VampireBiteLifesteal", "ignorefirst": true},
+		"18": {"classname": "VampireBiteDamage"},
+		"19": {"classname": "VampireBiteMaxhp"},
+		"20": {"classname": "VampireBiteNearbyhero"},
+		"21": {"classname": "VampireBiteMark", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "VampireSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveCoinHeal3", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

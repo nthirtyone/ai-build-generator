@@ -1,0 +1,35 @@
+{
+	"name": "Voltar the Omniscient",
+	"classname": "Summoner",
+	"items": {
+		"1": {"classname": "SummonDrone", "notlabeled": true},
+		"2": {"classname": "SummonerDroneAmount"},
+		"3": {"classname": "SummonerDroneBlind", "ignorefirst": true},
+		"4": {"classname": "SummonerDroneDamage"},
+		"5": {"classname": "SummonerDroneFaster"},
+		"6": {"classname": "SummonerDroneExplode", "ignorefirst": true},
+		"7": {"classname": "SummonerDroneCooldown"},
+		
+		"8": {"classname": "HealTotem", "notlabeled": true},
+		"9": {"classname": "SummonerHealtotemDuration"},
+		"10": {"classname": "SummonerHealtotemHeal"},
+		"11": {"classname": "SummonerHealtotemDamage", "ignorefirst": true},
+		"12": {"classname": "SummonerHealtotemCooldown", "ignorefirst": true},
+		"13": {"classname": "SummonerHealtotemKnockback", "ignorefirst": true},
+		"14": {"classname": "SummonerHealtotemHealthpack", "ignorefirst": true},
+		
+		"16": {"classname": "SummonerShotHealpower"},
+		"17": {"classname": "SummonerShotKnockback", "ignorefirst": true},
+		"18": {"classname": "SummonerShotRange"},
+		"19": {"classname": "SummonerShotSolar"},
+		"20": {"classname": "SummonerShotHot"},
+		"21": {"classname": "SummonerShotHealpower", "first": 4},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "SummonerSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

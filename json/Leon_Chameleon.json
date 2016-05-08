@@ -1,0 +1,35 @@
+{
+	"name": "Leon Chameleon",
+	"classname": "Chameleon",
+	"items": {
+		"1": {"classname": "ChameleonTongue", "notlabeled": true},
+		"2": {"classname": "ChameleonTongueDamage"},
+		"3": {"classname": "ChameleonTongueRange"},
+		"4": {"classname": "ChameleonTongueSilence"},
+		"5": {"classname": "ChameleonTongueLifesteal"},
+		"6": {"classname": "ChameleonTongueDamage4", "notlabeled": true},
+		"7": {"classname": "ChameleonTongueCoingrab", "ignorefirst": true},
+		
+		"8": {"classname": "Stealth", "notlabeled": true},
+		"9": {"classname": "ChameleonStealthSurprise"},
+		"10": {"classname": "ChameleonStealthRegen", "ignorefirst": true},
+		"11": {"classname": "ChameleonStealthCloneWalk", "ignorefirst": true},
+		"12": {"classname": "ChameleonStealthCloneAttack", "ignorefirst": true},
+		"13": {"classname": "ChameleonStealthCloneHealth", "ignorefirst": true},
+		"14": {"classname": "ChameleonStealthCloneExplode", "ignorefirst": true},
+		
+		"16": {"classname": "ChameleonHitDamage"},
+		"17": {"classname": "ChameleonHitAttackspeed"},
+		"18": {"classname": "ChameleonHitCrit", "ignorefirst": true},
+		"19": {"classname": "ChameleonHitBackstab"},
+		"20": {"classname": "ChameleonHitLifeSteal"},
+		"21": {"classname": "ChameleonHitSlow", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "ChameleonSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

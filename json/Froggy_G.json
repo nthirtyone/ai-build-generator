@@ -1,0 +1,35 @@
+{
+	"name": "Froggy G",
+	"classname": "Dasher",
+	"items": {
+		"1": {"classname": "Dash", "notlabeled": true},
+		"2": {"classname": "DasherDashDamage"},
+		"3": {"classname": "DasherDashStun"},
+		"4": {"classname": "DasherDashCooldownred"},
+		"5": {"classname": "DasherDashGroundpound"},
+		"6": {"classname": "DasherDashCooldownred3", "notlabeled": true},
+		"7": {"classname": "DasherDashDamage6", "notlabeled": true},
+		
+		"8": {"classname": "Whirlwind", "notlabeled": true},
+		"9": {"classname": "DasherWhirlwindDamage"},
+		"10": {"classname": "DasherWhirlwindSpeed"},
+		"11": {"classname": "DasherWhirlwindShield", "ignorefirst": true},
+		"12": {"classname": "DasherWhirlwindDuration"},
+		"13": {"classname": "DasherWhirlwindExplode"},
+		"14": {"classname": "DasherWhirlwindReflect", "ignorefirst": true},
+		
+		"16": {"classname": "DasherShotRange", "ignorefirst": true},
+		"17": {"classname": "DasherShotDamage", "ignorefirst": true},
+		"18": {"classname": "DasherShotFaster", "ignorefirst": true},
+		"19": {"classname": "DasherShotPenetrate", "ignorefirst": true},
+		"20": {"classname": "DasherShotBurstNext", "ignorefirst": true},
+		"21": {"classname": "DasherShotMore", "ignorefirst": true},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "DasherSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

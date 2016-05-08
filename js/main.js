@@ -36,7 +36,8 @@ app.controller('AI-Build-Controller', function($scope, $http) {
 						{name: "Raelynn", filename: "Raelynn"},
 						{name: "Gnaw", filename: "Gnaw"},
 						{name: "Leon Chameleon", filename: "Leon_Chameleon"},
-						{name: "Sheriff Lonestar", filename: "Sheriff_Lonestar"}
+						{name: "Sheriff Lonestar", filename: "Sheriff_Lonestar"},
+						{name: "Froggy G", filename: "Froggy_G"}
 					   ];
 	$scope.build = "";
     $scope.data  = function() {

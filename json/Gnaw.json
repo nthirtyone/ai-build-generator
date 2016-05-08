@@ -1,0 +1,35 @@
+{
+	"name": "Gnaw",
+	"classname": "Maw",
+	"items": {
+		"1": {"classname": "MawSpit", "notlabeled": true},
+		"2": {"classname": "MawSpitMore"},
+		"3": {"classname": "MawSpitSlow"},
+		"4": {"classname": "MawSpitDebuff"},
+		"5": {"classname": "MawSpitDamage"},
+		"6": {"classname": "MawSpitTrajectory", "ignorefirst": true},
+		"7": {"classname": "MawSpitLonger", "ignorefirst": true},
+		
+		"8": {"classname": "MawTurret", "notlabeled": true},
+		"9": {"classname": "MawTurretShots"},
+		"10": {"classname": "MawTurretDamage"},
+		"11": {"classname": "MawTurretGrow", "ignorefirst": true},
+		"12": {"classname": "MawTurretCheaper"},
+		"13": {"classname": "MawTurretAttackspeed"},
+		"14": {"classname": "MawTurretMaxChunks", "ignorefirst": true},
+		
+		"16": {"classname": "MawShotDot"},
+		"17": {"classname": "MawShotAttackspeed"},
+		"18": {"classname": "MawShotLifesteal", "ignorefirst": true},
+		"19": {"classname": "MawShotCombine", "ignorefirst": true},
+		"20": {"classname": "MawShotSpeedup", "ignorefirst": true},
+		"21": {"classname": "MawShotDamage"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "MawSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveCoinHeal3", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

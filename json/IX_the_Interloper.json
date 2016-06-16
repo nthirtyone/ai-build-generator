@@ -1,0 +1,35 @@
+{
+	"name": "Ix the Interloper",
+	"classname": "Shifter",
+	"items": {
+		"1": {"classname": "ShifterBond", "notlabeled": true},
+		"2": {"classname": "ShifterBondHeal"},
+		"3": {"classname": "ShifterBondDisplaceShield"},
+		"4": {"classname": "ShifterBondSpeed"},
+		"5": {"classname": "ShifterBondRange"},
+		"6": {"classname": "ShifterBondDot"},
+		"7": {"classname": "ShifterBondDisplaceAttackSpeed"},
+		
+		"8": {"classname": "ShifterShift", "notlabeled": true},
+		"9": {"classname": "ShifterShiftDuration"},
+		"10": {"classname": "ShifterShiftAmplify"},
+		"11": {"classname": "ShifterShiftHealth"},
+		"12": {"classname": "ShifterShiftBurst"},
+		"13": {"classname": "ShifterShiftSpeed"},
+		"14": {"classname": "ShifterShiftBond"},
+		
+		"16": {"classname": "ShifterPulseRange"},
+		"17": {"classname": "ShifterPulseLifesteal"},
+		"18": {"classname": "ShifterPulseDamage"},
+		"19": {"classname": "ShifterPulseEffect"},
+		"20": {"classname": "ShifterPulseBond"},
+		"21": {"classname": "ShifterPulseEmit"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "ShifterSpeed", "notlabeled": true},
+		"26": {"classname": "CoinRegen1", "notlabeled": true},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

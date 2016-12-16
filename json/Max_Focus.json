@@ -1,0 +1,35 @@
+{
+	"name": "Max Focus",
+	"classname": "Boizor",
+	"items": {
+		"1": {"classname": "BoizorBeam", "notlabeled": true},
+		"2": {"classname": "BoizorBeamRange"},
+		"3": {"classname": "BoizorBeamMoreBullets"},
+		"4": {"classname": "BoizorBeamHoming"},
+		"5": {"classname": "BoizorBeamDuration"},
+		"6": {"classname": "BoizorBeamDamage"},
+		"7": {"classname": "BoizorBeamLastBullet"},
+		
+		"8": {"classname": "BoizorBall", "notlabeled": true},
+		"9": {"classname": "BoizorBallTimeSlow"},
+		"10": {"classname": "BoizorBallLifeSteal"},
+		"11": {"classname": "BoizorBallSize"},
+		"12": {"classname": "BoizorBallRange"},
+		"13": {"classname": "BoizorBallCooldown"},
+		"14": {"classname": "BoizorBallSlowProjectile"},
+		
+		"16": {"classname": "BoizorBlastAttackSpeed"},
+		"17": {"classname": "BoizorBlastKeepSpeedBoost"},
+		"18": {"classname": "BoizorBlastRange"},
+		"19": {"classname": "BoizorBlastDamage"},
+		"20": {"classname": "BoizorBlastChargeDamage"},
+		"21": {"classname": "BoizorBlastLandMore"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "BoizorSpeed", "notlabeled": true},
+		"26": {"classname": "PiggyBank", "notlabeled": true},
+		"27": {"classname": "CCReduction", "notlabeled": true},
+		"28": {"classname": "AllCooldown"}
+	}
+}

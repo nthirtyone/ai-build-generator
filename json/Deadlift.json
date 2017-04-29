@@ -1,0 +1,35 @@
+{
+	"name": "Deadlift",
+	"classname": "Crumple",
+	"items": {
+		"1": {"classname": "CrumpleLeap", "notlabeled": true},
+		"2": {"classname": "CrumpleLeapCooldown"},
+		"3": {"classname": "CrumpleLeapRange"},
+		"4": {"classname": "CrumpleLeapDamage"},
+		"5": {"classname": "CrumpleLeapWeaken"},
+		"6": {"classname": "CrumpleLeapSkill"},
+		"7": {"classname": "CrumpleLeapKnockback"},
+		
+		"8": {"classname": "CrumpleBig", "notlabeled": true},
+		"9": {"classname": "CrumpleBigHealth"},
+		"10": {"classname": "CrumpleBigBuff"},
+		"11": {"classname": "CrumpleBigSlow"},
+		"12": {"classname": "CrumpleBigDecay"},
+		"13": {"classname": "CrumpleBigHealburst"},
+		"14": {"classname": "CrumpleBigSpeed"},
+		
+		"16": {"classname": "CrumpleShotAttackSpeed"},
+		"17": {"classname": "CrumpleShotSpeed"},
+		"18": {"classname": "CrumpleShotHeal"},
+		"19": {"classname": "CrumpleShotDamage"},
+		"20": {"classname": "CrumpleShotStun"},
+		"21": {"classname": "CrumpleShotCombo"},
+		
+		"23": {"classname": "AddHealth"},
+		"24": {"classname": "HealthRegen"},
+		"25": {"classname": "CrupmleSpeed", "notlabeled": true},
+		"26": {"classname": "PassiveShield"},
+		"27": {"classname": "PiggyBank", "notlabeled": true},
+		"28": {"classname": "CCReduction", "notlabeled": true}
+	}
+}

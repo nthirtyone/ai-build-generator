@@ -27,7 +27,7 @@
 		
 		"23": {"classname": "AddHealth"},
 		"24": {"classname": "HealthRegen"},
-		"25": {"classname": "CrupmleSpeed", "notlabeled": true},
+		"25": {"classname": "CrumpleSpeed", "notlabeled": true},
 		"26": {"classname": "PassiveShield"},
 		"27": {"classname": "PiggyBank", "notlabeled": true},
 		"28": {"classname": "CCReduction", "notlabeled": true}
